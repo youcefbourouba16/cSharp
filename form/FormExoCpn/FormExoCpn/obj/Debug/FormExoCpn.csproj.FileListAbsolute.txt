@@ -1,0 +1,11 @@
+D:\html\c#\form\FormExoCpn\FormExoCpn\obj\Debug\FormExoCpn.csproj.AssemblyReference.cache
+D:\html\c#\form\FormExoCpn\FormExoCpn\obj\Debug\FormExoCpn.csproj.SuggestedBindingRedirects.cache
+D:\html\c#\form\FormExoCpn\FormExoCpn\obj\Debug\FormExoCpn.Form1.resources
+D:\html\c#\form\FormExoCpn\FormExoCpn\obj\Debug\FormExoCpn.Properties.Resources.resources
+D:\html\c#\form\FormExoCpn\FormExoCpn\obj\Debug\FormExoCpn.csproj.GenerateResource.cache
+D:\html\c#\form\FormExoCpn\FormExoCpn\obj\Debug\FormExoCpn.csproj.CoreCompileInputs.cache
+D:\html\c#\form\FormExoCpn\FormExoCpn\bin\Debug\FormExoCpn.exe.config
+D:\html\c#\form\FormExoCpn\FormExoCpn\bin\Debug\FormExoCpn.exe
+D:\html\c#\form\FormExoCpn\FormExoCpn\bin\Debug\FormExoCpn.pdb
+D:\html\c#\form\FormExoCpn\FormExoCpn\obj\Debug\FormExoCpn.exe
+D:\html\c#\form\FormExoCpn\FormExoCpn\obj\Debug\FormExoCpn.pdb

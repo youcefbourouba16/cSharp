@@ -1,0 +1,13 @@
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\bin\Debug\WindowsFormsApp25032023.exe.config
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\bin\Debug\WindowsFormsApp25032023.exe
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\bin\Debug\WindowsFormsApp25032023.pdb
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\obj\Debug\WindowsFormsApp25032023.csproj.AssemblyReference.cache
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\obj\Debug\WindowsFormsApp25032023.csproj.SuggestedBindingRedirects.cache
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\obj\Debug\WindowsFormsApp25032023.Form1.resources
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\obj\Debug\WindowsFormsApp25032023.Properties.Resources.resources
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\obj\Debug\WindowsFormsApp25032023.csproj.GenerateResource.cache
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\obj\Debug\WindowsFormsApp25032023.csproj.CoreCompileInputs.cache
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\obj\Debug\WindowsFormsApp25032023.exe
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\obj\Debug\WindowsFormsApp25032023.pdb
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\obj\Debug\WindowsFormsApp25032023.Form2.resources
+D:\html\c#\form\WindowsFormsApp25032023\WindowsFormsApp25032023\obj\Debug\WindowsFormsApp25032023.FormValidationTextBox.resources
