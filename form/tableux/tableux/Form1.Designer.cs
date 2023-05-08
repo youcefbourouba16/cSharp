@@ -3,12 +3,12 @@
     partial class Form1
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,59 +23,79 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
             label1 = new Label();
-            textBox1 = new TextBox();
+            tb1 = new TextBox();
+            tb2 = new TextBox();
+            label2 = new Label();
             panel1 = new Panel();
+            bt1 = new Button();
             SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.Location = new Point(475, 122);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(131, 127);
+            label1.Location = new Point(94, 39);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 1;
-            label1.Text = "label1";
+            label1.Size = new Size(70, 15);
+            label1.TabIndex = 0;
+            label1.Text = "nbr de ligne";
             // 
-            // textBox1
+            // tb1
             // 
-            textBox1.Location = new Point(276, 122);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 2;
+            tb1.Location = new Point(170, 36);
+            tb1.Name = "tb1";
+            tb1.Size = new Size(100, 23);
+            tb1.TabIndex = 1;
+            // 
+            // tb2
+            // 
+            tb2.Location = new Point(170, 77);
+            tb2.Name = "tb2";
+            tb2.Size = new Size(100, 23);
+            tb2.TabIndex = 2;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(81, 85);
+            label2.Name = "label2";
+            label2.Size = new Size(83, 15);
+            label2.TabIndex = 3;
+            label2.Text = "nbr de collone";
             // 
             // panel1
             // 
-            panel1.Location = new Point(25, 151);
+            panel1.Location = new Point(115, 125);
             panel1.Name = "panel1";
-            panel1.Size = new Size(763, 287);
-            panel1.TabIndex = 3;
+            panel1.Size = new Size(562, 323);
+            panel1.TabIndex = 4;
+            // 
+            // bt1
+            // 
+            bt1.Location = new Point(523, 39);
+            bt1.Name = "bt1";
+            bt1.Size = new Size(75, 23);
+            bt1.TabIndex = 5;
+            bt1.Text = "affiche";
+            bt1.UseVisualStyleBackColor = true;
+            bt1.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(bt1);
             Controls.Add(panel1);
-            Controls.Add(textBox1);
+            Controls.Add(label2);
+            Controls.Add(tb2);
+            Controls.Add(tb1);
             Controls.Add(label1);
-            Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -84,9 +104,11 @@
 
         #endregion
 
-        private Button button1;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox tb1;
+        private TextBox tb2;
+        private Label label2;
         private Panel panel1;
+        private Button bt1;
     }
 }

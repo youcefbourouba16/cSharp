@@ -12,6 +12,7 @@ namespace tableux
 {
     public partial class Form2 : Form
     {
+        
         public Form2()
         {
             InitializeComponent();
@@ -25,7 +26,7 @@ namespace tableux
             for (int i = 0; i < m; i++)
             {
                 tb = new TextBox();
-                tb.Text = "" + (i+1);
+                tb.Text = "0";
                 tb.Name = tb.Text;
                 tb.Size = new Size(60, 40);
                 int l = i / 7;
@@ -49,9 +50,27 @@ namespace tableux
 
         }
 
+        double[] tab = new double[100];
         private void btnSomme_Click(object? sender, EventArgs e)
         {
-            
+            double som = 0;
+            int i=0;
+            // conrol= object 
+            foreach (Control c in panel1.Controls)
+            {
+                if (c is TextBox)
+                {
+                    tab[i] = Convert.ToDouble(c.Text); /// charger les element dans un vecteur
+                    i++;
+                }
+            }
+            foreach (double val in tab)/// ydi mn check elemnt valeur w yhatha f varaible Val
+            {
+                som += val;
+            }
+           
+            MessageBox.Show("la somme est : " + som);
         }
+        
     }
 }
