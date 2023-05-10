@@ -54,39 +54,56 @@ namespace tableux
         private void btnSomme_Click(object? sender, EventArgs e)
         {
             double somme = 0;
-            
+
             foreach (Control c in panel1.Controls)
             {
-                if (c is TextBox)
+                if (c is TextBox) 
                 {
                     string str1 = "", str2 = "";
                     string str = c.Name;
                     for (int i = 1; i < str.Length; i++)
                     {
 
-                        if (str[i]!='c'){
-
+                        if (str[i] != 'c')
+                        {
                             str1 += str[i];
 
-                        }else
+
+
+                        }
+                        else
                         {
-                            for (int j = i+1; j < str.Length; j++)
+                            for (int j = i + 1; j < str.Length; j++)
                             {
                                 str2 += str[j];
-                            } break;
+                            }
+                            break;
                         }
 
-                        
+
 
                     }
                     if (str1 == str2)
-                        {
-                            somme += Convert.ToDouble(c.Text);
-                        }
-                    
-                    
+                    {
+                        somme += Convert.ToDouble(c.Text);
+                    }
+
+
+
                 }
             }
+            foreach (Control c in panel1.Controls)
+            {
+                if (c is TextBox)
+                {
+                    
+
+
+
+                }
+            }
+
+
             MessageBox.Show("la Somme est : " + somme);
         }
     }

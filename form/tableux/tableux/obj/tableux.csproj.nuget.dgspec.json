@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\tableux\\tableux\\tableux.csproj": {}
+    "E:\\html\\cSharp\\form\\tableux\\tableux\\tableux.csproj": {}
   },
   "projects": {
-    "E:\\tableux\\tableux\\tableux.csproj": {
+    "E:\\html\\cSharp\\form\\tableux\\tableux\\tableux.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\tableux\\tableux\\tableux.csproj",
+        "projectUniqueName": "E:\\html\\cSharp\\form\\tableux\\tableux\\tableux.csproj",
         "projectName": "tableux",
-        "projectPath": "E:\\tableux\\tableux\\tableux.csproj",
+        "projectPath": "E:\\html\\cSharp\\form\\tableux\\tableux\\tableux.csproj",
         "packagesPath": "C:\\Users\\toush\\.nuget\\packages\\",
-        "outputPath": "E:\\tableux\\tableux\\obj\\",
+        "outputPath": "E:\\html\\cSharp\\form\\tableux\\tableux\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\toush\\AppData\\Roaming\\NuGet\\NuGet.Config",
