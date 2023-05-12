@@ -46,7 +46,7 @@ namespace tableux
 
             }
             Button btn = new Button();
-            btn.Location = new Point(70* l, 50 * c);
+            btn.Location = new Point(70 * l, 50 * c);
             btn.Size = new Size(60, 30);
             btn.Text = "Somme";
             btn.Click += new System.EventHandler(btnSomme_Click);
@@ -56,18 +56,18 @@ namespace tableux
         private void btnSomme_Click(object? sender, EventArgs e)
 
         {
-            
+
             double somme = 0, somme1 = 0;
             double max, min;
 
             foreach (Control c in panel1.Controls)
             {
-                
+
                 if (c is TextBox)
                 {
                     string str1 = "", str2 = "";
                     string str = c.Name;
-                    
+
                     for (int i = 1; i < str.Length; i++)
                     {
 
@@ -92,7 +92,7 @@ namespace tableux
                         }
                         /////hna drt la somme tae diagonal brk 
                     }
-                    
+
                     if (str1 == str2)
                     {
                         somme += Convert.ToDouble(c.Text);
@@ -113,11 +113,11 @@ namespace tableux
                 min = Matrice[i, 0];
                 for (int j = 0; j < f; j++)
                 {
-                    if (Matrice[i,j]>max)
+                    if (Matrice[i, j] > max)
                     {
                         max = Matrice[i, j];
                     }
-                    if (Matrice[i, j] <min)
+                    if (Matrice[i, j] < min)
                     {
                         min = Matrice[i, j];
                     }
@@ -141,7 +141,12 @@ namespace tableux
                 panel1.Controls.Add(lb1);
 
             }
-            
+
+
+        }
+
+        private void tb1_KeyPress(object sender, KeyPressEventArgs e)
+        {
 
         }
     }

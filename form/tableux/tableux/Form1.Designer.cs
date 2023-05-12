@@ -51,6 +51,7 @@
             tb1.Name = "tb1";
             tb1.Size = new Size(100, 23);
             tb1.TabIndex = 1;
+            tb1.KeyPress += tb1_KeyPress;
             // 
             // tb2
             // 
