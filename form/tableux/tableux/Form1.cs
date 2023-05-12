@@ -16,6 +16,7 @@ namespace tableux
     {
 
         double[,] Matrice = new double[50, 50];
+        double max, min;
         public Form1()
         {
             InitializeComponent();
@@ -42,9 +43,10 @@ namespace tableux
                     panel1.Controls.Add(tb);
 
                 }
+
             }
             Button btn = new Button();
-            btn.Location = new Point(80 * l, 40 * c);
+            btn.Location = new Point(70* l, 50 * c);
             btn.Size = new Size(60, 30);
             btn.Text = "Somme";
             btn.Click += new System.EventHandler(btnSomme_Click);
@@ -52,23 +54,28 @@ namespace tableux
         }
 
         private void btnSomme_Click(object? sender, EventArgs e)
+
         {
-            double somme = 0;
+            
+            double somme = 0, somme1 = 0;
+            double max, min;
 
             foreach (Control c in panel1.Controls)
             {
-                if (c is TextBox) 
+                
+                if (c is TextBox)
                 {
                     string str1 = "", str2 = "";
                     string str = c.Name;
+                    
                     for (int i = 1; i < str.Length; i++)
                     {
 
+
                         if (str[i] != 'c')
                         {
+
                             str1 += str[i];
-
-
 
                         }
                         else
@@ -79,32 +86,63 @@ namespace tableux
                             }
                             break;
                         }
-
-
-
+                        if (str1 == Convert.ToString(1))
+                        {
+                            somme1 += Convert.ToDouble(c.Text);
+                        }
+                        /////hna drt la somme tae diagonal brk 
                     }
+                    
                     if (str1 == str2)
                     {
                         somme += Convert.ToDouble(c.Text);
                     }
-
-
-
-                }
-            }
-            foreach (Control c in panel1.Controls)
-            {
-                if (c is TextBox)
-                {
-                    
-
-
+                    int m = Convert.ToInt32(str1);
+                    int n = Convert.ToInt32(str2);
+                    Matrice[m, n] = Convert.ToInt32(c.Text);
 
                 }
+
             }
-
-
             MessageBox.Show("la Somme est : " + somme);
+            int l = Convert.ToInt32(tb1.Text);
+            int f = Convert.ToInt32(tb2.Text);
+            for (int i = 0; i < l; i++)
+            {
+                max = Matrice[i, 0];
+                min = Matrice[i, 0];
+                for (int j = 0; j < f; j++)
+                {
+                    if (Matrice[i,j]>max)
+                    {
+                        max = Matrice[i, j];
+                    }
+                    if (Matrice[i, j] <min)
+                    {
+                        min = Matrice[i, j];
+                    }
+                }
+                Label lb = new Label();
+                lb.Text = "Min = " + min;
+                lb.Name = "min" + i;
+                lb.Size = new Size(60, 40);
+
+                lb.Location = new Point(f * 70, 50 * i);
+                panel1.Controls.Add(lb);
+
+
+                Label lb1 = new Label();
+                lb1.Text = "Max = " + max;
+                lb1.Name = "max" + i;
+                lb1.Size = new Size(60, 40);
+
+                lb1.Location = new Point((f + 1) * 70, 50 * i);
+
+                panel1.Controls.Add(lb1);
+
+            }
+            
+
         }
     }
 }
