@@ -99,7 +99,7 @@ namespace tableux
                     }
                     int m = Convert.ToInt32(str1);
                     int n = Convert.ToInt32(str2);
-                    Matrice[m, n] = Convert.ToInt32(c.Text);
+                    Matrice[n, m] = Convert.ToInt32(c.Text);
 
                 }
 
