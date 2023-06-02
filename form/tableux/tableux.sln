@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tableux", "tableux\tableux.csproj", "{854BAC94-7405-42D8-9D24-F59E3C786877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tableux", "tableux\tableux.csproj", "{854BAC94-7405-42D8-9D24-F59E3C786877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "form_some2Mat", "form_some2Mat\form_some2Mat.csproj", "{CDC8CB65-9646-4FF5-AA94-B3920C84230C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{854BAC94-7405-42D8-9D24-F59E3C786877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{854BAC94-7405-42D8-9D24-F59E3C786877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{854BAC94-7405-42D8-9D24-F59E3C786877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC8CB65-9646-4FF5-AA94-B3920C84230C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC8CB65-9646-4FF5-AA94-B3920C84230C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC8CB65-9646-4FF5-AA94-B3920C84230C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC8CB65-9646-4FF5-AA94-B3920C84230C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

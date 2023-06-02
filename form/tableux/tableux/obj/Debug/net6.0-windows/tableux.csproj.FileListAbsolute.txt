@@ -88,3 +88,5 @@ E:\html\cSharp\form\tableux\tableux\obj\Debug\net6.0-windows\refint\tableux.dll
 E:\html\cSharp\form\tableux\tableux\obj\Debug\net6.0-windows\tableux.pdb
 E:\html\cSharp\form\tableux\tableux\obj\Debug\net6.0-windows\tableux.genruntimeconfig.cache
 E:\html\cSharp\form\tableux\tableux\obj\Debug\net6.0-windows\ref\tableux.dll
+E:\html\cSharp\form\tableux\tableux\obj\Debug\net6.0-windows\tableux.Form3.resources
+E:\html\cSharp\form\tableux\tableux\obj\Debug\net6.0-windows\tableux.Somme2matrice.resources

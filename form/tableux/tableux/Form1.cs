@@ -125,14 +125,12 @@ namespace tableux
                     T[Convert.ToInt32(str2), Convert.ToInt32(str1)] = Convert.ToInt32(m.Text);
 
 
-
-
-
-
-
                 }
 
+
+
             }
+            
             MessageBox.Show("la Somme est : " + somme);
             int l = Convert.ToInt32(tbLigne.Text);
             int c = Convert.ToInt32(tbCollone.Text);
