@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            tb1 = new TextBox();
-            tb2 = new TextBox();
+            tbCollone = new TextBox();
+            tbLigne = new TextBox();
             label2 = new Label();
             panel1 = new Panel();
             bt1 = new Button();
@@ -44,26 +44,28 @@
             label1.Size = new Size(70, 15);
             label1.TabIndex = 0;
             label1.Text = "nbr de ligne";
+            label1.Click += label1_Click;
             // 
-            // tb1
+            // tbCollone
             // 
-            tb1.Location = new Point(170, 36);
-            tb1.Name = "tb1";
-            tb1.Size = new Size(100, 23);
-            tb1.TabIndex = 1;
-            tb1.KeyPress += tb1_KeyPress;
+            tbCollone.Location = new Point(170, 72);
+            tbCollone.Name = "tbCollone";
+            tbCollone.Size = new Size(100, 23);
+            tbCollone.TabIndex = 1;
+            tbCollone.KeyPress += tb1_KeyPress;
             // 
-            // tb2
+            // tbLigne
             // 
-            tb2.Location = new Point(170, 77);
-            tb2.Name = "tb2";
-            tb2.Size = new Size(100, 23);
-            tb2.TabIndex = 2;
+            tbLigne.Location = new Point(170, 36);
+            tbLigne.Name = "tbLigne";
+            tbLigne.Size = new Size(100, 23);
+            tbLigne.TabIndex = 2;
+            tbLigne.KeyPress += tbLigne_KeyPress;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(81, 85);
+            label2.Location = new Point(81, 75);
             label2.Name = "label2";
             label2.Size = new Size(83, 15);
             label2.TabIndex = 3;
@@ -94,8 +96,8 @@
             Controls.Add(bt1);
             Controls.Add(panel1);
             Controls.Add(label2);
-            Controls.Add(tb2);
-            Controls.Add(tb1);
+            Controls.Add(tbLigne);
+            Controls.Add(tbCollone);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
@@ -106,8 +108,8 @@
         #endregion
 
         private Label label1;
-        private TextBox tb1;
-        private TextBox tb2;
+        private TextBox tbCollone;
+        private TextBox tbLigne;
         private Label label2;
         private Panel panel1;
         private Button bt1;
