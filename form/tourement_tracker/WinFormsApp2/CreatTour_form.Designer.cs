@@ -16,7 +16,7 @@
             if (disposing && (components != null))
             {
                 components.Dispose();
-            }else
+            }
             base.Dispose(disposing);
         }
 
@@ -126,7 +126,7 @@
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(396, 172);
+            linkLabel1.Location = new Point(396, 168);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(98, 21);
             linkLabel1.TabIndex = 9;
@@ -237,7 +237,7 @@
             label6.AutoSize = true;
             label6.Font = new Font("Courier New", 14.25F, FontStyle.Italic, GraphicsUnit.Point);
             label6.ForeColor = Color.DarkKhaki;
-            label6.Location = new Point(565, 37);
+            label6.Location = new Point(565, 48);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
             label6.Size = new Size(120, 21);
@@ -250,6 +250,7 @@
             btn_addTourament.BackgroundImageLayout = ImageLayout.Stretch;
             btn_addTourament.Cursor = Cursors.Hand;
             btn_addTourament.FlatAppearance.BorderSize = 0;
+            btn_addTourament.FlatStyle = FlatStyle.Flat;
             btn_addTourament.Font = new Font("Unispace", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             btn_addTourament.Location = new Point(441, 393);
             btn_addTourament.Name = "btn_addTourament";
@@ -283,7 +284,7 @@
             Controls.Add(label1);
             Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "CreatTour_form";
             Text = "Form1";
             ResumeLayout(false);
