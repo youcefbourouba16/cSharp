@@ -114,18 +114,25 @@ namespace tableux
                 panel3.Controls.Clear();
                 mat1 = remlissage_matrice(panel1);
                 mat2 = remlissage_matrice(panel2);
-                
+                int somme1 = 0; int somme2 = 0;
+
                 int[,] matsome = new int[5, 5];
                 for (int i = 0; i < Convert.ToInt16(textBox1.Text); i++)
                 {
+                    somme1 += mat1[i, i];
+                    somme2 += mat2[i, i];
                     for (int j = 0; j < Convert.ToInt16(textBox2.Text); j++)
                     {
-                       
+
                         matsome[i, j] = mat1[i, j] + mat2[i, j];
+                        
+                        
+
                     }
                 }
-                
-                
+
+                MessageBox.Show(" la somme de digaonal de mat 1 est" + somme1);
+                MessageBox.Show(" la somme de digaonal de mat 2 est" + somme1);
 
                 addtextbox(panel3, Convert.ToInt16(textBox1.Text), Convert.ToInt16(textBox2.Text));
 
@@ -135,15 +142,14 @@ namespace tableux
                     if (m is TextBox)
                     {
                         string str1 = "", str2 = "";
+                        
                         string str = m.Name;
-
-
                         str1 = str.Substring(1, str.IndexOf('c') - 1);
                         str2 = str.Substring(str.IndexOf('c') + 1);
                         m.Text = Convert.ToString(matsome[Convert.ToInt16(str2), Convert.ToInt16(str1)]);
-                        
+
                     }
-                    
+
                 }
 
 

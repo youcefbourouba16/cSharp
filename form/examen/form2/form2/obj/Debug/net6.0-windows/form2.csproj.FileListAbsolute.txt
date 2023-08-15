@@ -1,0 +1,17 @@
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\form2.csproj.AssemblyReference.cache
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\form2.Form1.resources
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\form2.csproj.GenerateResource.cache
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\form2.GeneratedMSBuildEditorConfig.editorconfig
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\form2.AssemblyInfoInputs.cache
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\form2.AssemblyInfo.cs
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\form2.csproj.CoreCompileInputs.cache
+E:\html\cSharp\form\examen\form2\form2\bin\Debug\net6.0-windows\form2.exe
+E:\html\cSharp\form\examen\form2\form2\bin\Debug\net6.0-windows\form2.deps.json
+E:\html\cSharp\form\examen\form2\form2\bin\Debug\net6.0-windows\form2.runtimeconfig.json
+E:\html\cSharp\form\examen\form2\form2\bin\Debug\net6.0-windows\form2.dll
+E:\html\cSharp\form\examen\form2\form2\bin\Debug\net6.0-windows\form2.pdb
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\form2.dll
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\refint\form2.dll
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\form2.pdb
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\form2.genruntimeconfig.cache
+E:\html\cSharp\form\examen\form2\form2\obj\Debug\net6.0-windows\ref\form2.dll
