@@ -1,0 +1,17 @@
+E:\html\cSharp\form\tourement_tracker\creatPrize\bin\Debug\net6.0-windows\creatPrize.exe
+E:\html\cSharp\form\tourement_tracker\creatPrize\bin\Debug\net6.0-windows\creatPrize.deps.json
+E:\html\cSharp\form\tourement_tracker\creatPrize\bin\Debug\net6.0-windows\creatPrize.runtimeconfig.json
+E:\html\cSharp\form\tourement_tracker\creatPrize\bin\Debug\net6.0-windows\creatPrize.dll
+E:\html\cSharp\form\tourement_tracker\creatPrize\bin\Debug\net6.0-windows\creatPrize.pdb
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\creatPrize.csproj.AssemblyReference.cache
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\creatPrize.creatPrize.resources
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\creatPrize.csproj.GenerateResource.cache
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\creatPrize.GeneratedMSBuildEditorConfig.editorconfig
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\creatPrize.AssemblyInfoInputs.cache
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\creatPrize.AssemblyInfo.cs
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\creatPrize.csproj.CoreCompileInputs.cache
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\creatPrize.dll
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\refint\creatPrize.dll
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\creatPrize.pdb
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\creatPrize.genruntimeconfig.cache
+E:\html\cSharp\form\tourement_tracker\creatPrize\obj\Debug\net6.0-windows\ref\creatPrize.dll

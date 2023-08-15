@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "creatTeamForm", "creatTeamF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "creatPrize", "creatPrize\creatPrize.csproj", "{F1ABD61F-842A-47D6-97F3-03973A43D3A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "touramentDashboard", "touramentDashboard\touramentDashboard.csproj", "{B93CFAE0-6C74-47D5-A885-5E3168F6034D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{081E959C-92D9-4D4E-BF7F-A145C53E6407}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{F1ABD61F-842A-47D6-97F3-03973A43D3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1ABD61F-842A-47D6-97F3-03973A43D3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1ABD61F-842A-47D6-97F3-03973A43D3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93CFAE0-6C74-47D5-A885-5E3168F6034D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93CFAE0-6C74-47D5-A885-5E3168F6034D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93CFAE0-6C74-47D5-A885-5E3168F6034D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93CFAE0-6C74-47D5-A885-5E3168F6034D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(creatPrize));
             button1 = new Button();
             prizePercentage = new TextBox();
             label2 = new Label();
@@ -50,10 +51,10 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Unispace", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.Desktop;
-            button1.Location = new Point(53, 367);
+            button1.Location = new Point(53, 357);
             button1.Name = "button1";
             button1.Size = new Size(331, 60);
-            button1.TabIndex = 72;
+            button1.TabIndex = 83;
             button1.Text = "Creat Prize";
             button1.UseVisualStyleBackColor = false;
             // 
@@ -61,22 +62,22 @@
             // 
             prizePercentage.BorderStyle = BorderStyle.FixedSingle;
             prizePercentage.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            prizePercentage.Location = new Point(104, 316);
+            prizePercentage.Location = new Point(104, 306);
             prizePercentage.Margin = new Padding(4);
             prizePercentage.Name = "prizePercentage";
             prizePercentage.Size = new Size(206, 29);
-            prizePercentage.TabIndex = 71;
+            prizePercentage.TabIndex = 82;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Courier New", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             label2.ForeColor = Color.SteelBlue;
-            label2.Location = new Point(102, 290);
+            label2.Location = new Point(102, 280);
             label2.Margin = new Padding(5, 0, 5, 0);
             label2.Name = "label2";
             label2.Size = new Size(208, 22);
-            label2.TabIndex = 70;
+            label2.TabIndex = 81;
             label2.Text = "Prize Percentage :";
             // 
             // label8
@@ -84,11 +85,11 @@
             label8.AutoSize = true;
             label8.Font = new Font("Ink Free", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label8.ForeColor = Color.MidnightBlue;
-            label8.Location = new Point(171, 254);
+            label8.Location = new Point(171, 244);
             label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
             label8.Size = new Size(52, 23);
-            label8.TabIndex = 69;
+            label8.TabIndex = 80;
             label8.Text = "-OR-";
             // 
             // label1
@@ -96,53 +97,53 @@
             label1.AutoSize = true;
             label1.Font = new Font("Georgia", 18F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.Black;
-            label1.Location = new Point(122, 43);
+            label1.Location = new Point(122, 33);
             label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
             label1.Size = new Size(165, 29);
-            label1.TabIndex = 68;
+            label1.TabIndex = 79;
             label1.Text = "Creat Prize :";
             // 
             // PriceAmount
             // 
             PriceAmount.BorderStyle = BorderStyle.FixedSingle;
             PriceAmount.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            PriceAmount.Location = new Point(216, 203);
+            PriceAmount.Location = new Point(216, 193);
             PriceAmount.Margin = new Padding(4);
             PriceAmount.Name = "PriceAmount";
             PriceAmount.Size = new Size(206, 29);
-            PriceAmount.TabIndex = 67;
+            PriceAmount.TabIndex = 78;
             // 
             // placeName
             // 
             placeName.BorderStyle = BorderStyle.FixedSingle;
             placeName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            placeName.Location = new Point(217, 158);
+            placeName.Location = new Point(217, 148);
             placeName.Margin = new Padding(4);
             placeName.Name = "placeName";
             placeName.Size = new Size(206, 29);
-            placeName.TabIndex = 66;
+            placeName.TabIndex = 77;
             // 
             // placeNumber
             // 
             placeNumber.BorderStyle = BorderStyle.FixedSingle;
             placeNumber.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            placeNumber.Location = new Point(217, 114);
+            placeNumber.Location = new Point(217, 104);
             placeNumber.Margin = new Padding(4);
             placeNumber.Name = "placeNumber";
             placeNumber.Size = new Size(206, 29);
-            placeNumber.TabIndex = 62;
+            placeNumber.TabIndex = 73;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Courier New", 12F, FontStyle.Italic, GraphicsUnit.Point);
             label6.ForeColor = Color.Black;
-            label6.Location = new Point(13, 203);
+            label6.Location = new Point(13, 193);
             label6.Margin = new Padding(5, 0, 5, 0);
             label6.Name = "label6";
             label6.Size = new Size(159, 19);
-            label6.TabIndex = 65;
+            label6.TabIndex = 76;
             label6.Text = "-prize Amount :";
             // 
             // label5
@@ -150,11 +151,11 @@
             label5.AutoSize = true;
             label5.Font = new Font("Courier New", 12F, FontStyle.Italic, GraphicsUnit.Point);
             label5.ForeColor = Color.Black;
-            label5.Location = new Point(13, 119);
+            label5.Location = new Point(13, 109);
             label5.Margin = new Padding(5, 0, 5, 0);
             label5.Name = "label5";
             label5.Size = new Size(159, 19);
-            label5.TabIndex = 64;
+            label5.TabIndex = 75;
             label5.Text = "-Place number :";
             // 
             // label4
@@ -162,11 +163,11 @@
             label4.AutoSize = true;
             label4.Font = new Font("Courier New", 12F, FontStyle.Italic, GraphicsUnit.Point);
             label4.ForeColor = Color.Black;
-            label4.Location = new Point(19, 158);
+            label4.Location = new Point(19, 148);
             label4.Margin = new Padding(5, 0, 5, 0);
             label4.Name = "label4";
             label4.Size = new Size(149, 19);
-            label4.TabIndex = 63;
+            label4.TabIndex = 74;
             label4.Text = "-place Name  :";
             // 
             // creatPrize
@@ -185,8 +186,9 @@
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "creatPrize";
-            Text = "Form1";
+            Text = "Creat Prize";
             ResumeLayout(false);
             PerformLayout();
         }

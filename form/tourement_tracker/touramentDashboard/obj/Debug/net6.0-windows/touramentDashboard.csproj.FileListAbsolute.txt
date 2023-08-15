@@ -1,0 +1,8 @@
+E:\html\cSharp\form\tourement_tracker\touramentDashboard\obj\Debug\net6.0-windows\touramentDashboard.csproj.AssemblyReference.cache
+E:\html\cSharp\form\tourement_tracker\touramentDashboard\obj\Debug\net6.0-windows\touramentDashboard.Properties.Resources.resources
+E:\html\cSharp\form\tourement_tracker\touramentDashboard\obj\Debug\net6.0-windows\touramentDashboard.touramentDashBoeard.resources
+E:\html\cSharp\form\tourement_tracker\touramentDashboard\obj\Debug\net6.0-windows\touramentDashboard.csproj.GenerateResource.cache
+E:\html\cSharp\form\tourement_tracker\touramentDashboard\obj\Debug\net6.0-windows\touramentDashboard.GeneratedMSBuildEditorConfig.editorconfig
+E:\html\cSharp\form\tourement_tracker\touramentDashboard\obj\Debug\net6.0-windows\touramentDashboard.AssemblyInfoInputs.cache
+E:\html\cSharp\form\tourement_tracker\touramentDashboard\obj\Debug\net6.0-windows\touramentDashboard.AssemblyInfo.cs
+E:\html\cSharp\form\tourement_tracker\touramentDashboard\obj\Debug\net6.0-windows\touramentDashboard.csproj.CoreCompileInputs.cache
