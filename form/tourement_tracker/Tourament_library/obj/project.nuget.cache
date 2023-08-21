@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YjixBMSgqVam75v9OgEQwuT/UHOQprpvcB5hVbafC4BW6FdbEBPgSWj6asth2ULTSkcweIaA44X3WDXUUxtYxA==",
+  "dgSpecHash": "y/+/njtc4Z+KKuw6yzGK6nOBJT/VyMCN/MCH7jNYyfDk+U35BGtfNcw0PwwbINrR3epzgSp7RdpREfigpmwm6g==",
   "success": true,
   "projectFilePath": "E:\\html\\cSharp\\form\\tourement_tracker\\Tourament_library\\Tourament_library.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\toush\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512"
+  ],
   "logs": []
 }

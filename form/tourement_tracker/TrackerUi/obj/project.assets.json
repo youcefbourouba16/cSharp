@@ -1,11 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "Dapper/2.0.151": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Tourament_library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dapper": "2.0.151"
+        },
+        "compile": {
+          "bin/placeholder/Tourament_library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tourament_library.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dapper/2.0.151": {
+      "sha512": "mMcZgx1lim0/i1Ozu+lgnBM4GwNIHpCuxV6BV2ovsEfZAXRAq4jb6RIhxGDcVjtmXMLPpdp85jHPdDjBMMwejw==",
+      "type": "package",
+      "path": "dapper/2.0.151",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.0.151.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "Tourament_library/1.0.0": {
+      "type": "project",
+      "path": "../Tourament_library/Tourament_library.csproj",
+      "msbuildProject": "../Tourament_library/Tourament_library.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "Tourament_library >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\toush\\.nuget\\packages\\": {}
@@ -33,7 +86,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\html\\cSharp\\form\\tourement_tracker\\Tourament_library\\Tourament_library.csproj": {
+              "projectPath": "E:\\html\\cSharp\\form\\tourement_tracker\\Tourament_library\\Tourament_library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(creatPrize));
             button1 = new Button();
-            prizePercentage = new TextBox();
+            prizePercentageValue = new TextBox();
             label2 = new Label();
             label8 = new Label();
             label1 = new Label();
-            PriceAmount = new TextBox();
-            placeName = new TextBox();
-            placeNumber = new TextBox();
+            PrizeAmountValue = new TextBox();
+            placeNameValue = new TextBox();
+            placeNumberValue = new TextBox();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
@@ -57,16 +57,18 @@
             button1.TabIndex = 94;
             button1.Text = "Creat Prize";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
-            // prizePercentage
+            // prizePercentageValue
             // 
-            prizePercentage.BorderStyle = BorderStyle.FixedSingle;
-            prizePercentage.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            prizePercentage.Location = new Point(103, 300);
-            prizePercentage.Margin = new Padding(4);
-            prizePercentage.Name = "prizePercentage";
-            prizePercentage.Size = new Size(206, 29);
-            prizePercentage.TabIndex = 93;
+            prizePercentageValue.BorderStyle = BorderStyle.FixedSingle;
+            prizePercentageValue.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            prizePercentageValue.Location = new Point(103, 300);
+            prizePercentageValue.Margin = new Padding(4);
+            prizePercentageValue.Name = "prizePercentageValue";
+            prizePercentageValue.Size = new Size(206, 29);
+            prizePercentageValue.TabIndex = 93;
+            prizePercentageValue.Text = "0";
             // 
             // label2
             // 
@@ -104,35 +106,36 @@
             label1.TabIndex = 90;
             label1.Text = "Creat Prize :";
             // 
-            // PriceAmount
+            // PrizeAmountValue
             // 
-            PriceAmount.BorderStyle = BorderStyle.FixedSingle;
-            PriceAmount.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            PriceAmount.Location = new Point(215, 187);
-            PriceAmount.Margin = new Padding(4);
-            PriceAmount.Name = "PriceAmount";
-            PriceAmount.Size = new Size(206, 29);
-            PriceAmount.TabIndex = 89;
+            PrizeAmountValue.BorderStyle = BorderStyle.FixedSingle;
+            PrizeAmountValue.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            PrizeAmountValue.Location = new Point(215, 187);
+            PrizeAmountValue.Margin = new Padding(4);
+            PrizeAmountValue.Name = "PrizeAmountValue";
+            PrizeAmountValue.Size = new Size(206, 29);
+            PrizeAmountValue.TabIndex = 89;
+            PrizeAmountValue.Text = "0";
             // 
-            // placeName
+            // placeNameValue
             // 
-            placeName.BorderStyle = BorderStyle.FixedSingle;
-            placeName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            placeName.Location = new Point(216, 142);
-            placeName.Margin = new Padding(4);
-            placeName.Name = "placeName";
-            placeName.Size = new Size(206, 29);
-            placeName.TabIndex = 88;
+            placeNameValue.BorderStyle = BorderStyle.FixedSingle;
+            placeNameValue.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            placeNameValue.Location = new Point(216, 142);
+            placeNameValue.Margin = new Padding(4);
+            placeNameValue.Name = "placeNameValue";
+            placeNameValue.Size = new Size(206, 29);
+            placeNameValue.TabIndex = 88;
             // 
-            // placeNumber
+            // placeNumberValue
             // 
-            placeNumber.BorderStyle = BorderStyle.FixedSingle;
-            placeNumber.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            placeNumber.Location = new Point(216, 98);
-            placeNumber.Margin = new Padding(4);
-            placeNumber.Name = "placeNumber";
-            placeNumber.Size = new Size(206, 29);
-            placeNumber.TabIndex = 84;
+            placeNumberValue.BorderStyle = BorderStyle.FixedSingle;
+            placeNumberValue.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            placeNumberValue.Location = new Point(216, 98);
+            placeNumberValue.Margin = new Padding(4);
+            placeNumberValue.Name = "placeNumberValue";
+            placeNumberValue.Size = new Size(206, 29);
+            placeNumberValue.TabIndex = 84;
             // 
             // label6
             // 
@@ -176,13 +179,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(448, 450);
             Controls.Add(button1);
-            Controls.Add(prizePercentage);
+            Controls.Add(prizePercentageValue);
             Controls.Add(label2);
             Controls.Add(label8);
             Controls.Add(label1);
-            Controls.Add(PriceAmount);
-            Controls.Add(placeName);
-            Controls.Add(placeNumber);
+            Controls.Add(PrizeAmountValue);
+            Controls.Add(placeNameValue);
+            Controls.Add(placeNumberValue);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -197,13 +200,13 @@
         #endregion
 
         private Button button1;
-        private TextBox prizePercentage;
+        private TextBox prizePercentageValue;
         private Label label2;
         private Label label8;
         private Label label1;
-        private TextBox PriceAmount;
-        private TextBox placeName;
-        private TextBox placeNumber;
+        private TextBox PrizeAmountValue;
+        private TextBox placeNameValue;
+        private TextBox placeNumberValue;
         private Label label6;
         private Label label5;
         private Label label4;

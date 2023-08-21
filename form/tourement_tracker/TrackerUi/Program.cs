@@ -11,7 +11,10 @@ namespace TrackerUi
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new dashBoard());
+
+            // intialize the dataBabe
+            Tourament_library.globalConfig.InitializingConnection(true, true);
+            Application.Run(new creatPrize());
         }
     }
 }

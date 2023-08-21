@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "TrackerUi/1.0.0": {
-        "dependencies": {
-          "Tourament_library": "1.0.0"
-        },
-        "runtime": {
-          "TrackerUi.dll": {}
-        }
-      },
       "Tourament_library/1.0.0": {
         "runtime": {
           "Tourament_library.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "TrackerUi/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Tourament_library/1.0.0": {
       "type": "project",
       "serviceable": false,

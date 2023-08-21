@@ -20,3 +20,6 @@ E:\html\cSharp\form\tourement_tracker\TrackerUi\obj\Debug\net6.0-windows\refint\
 E:\html\cSharp\form\tourement_tracker\TrackerUi\obj\Debug\net6.0-windows\TrackerUi.pdb
 E:\html\cSharp\form\tourement_tracker\TrackerUi\obj\Debug\net6.0-windows\TrackerUi.genruntimeconfig.cache
 E:\html\cSharp\form\tourement_tracker\TrackerUi\obj\Debug\net6.0-windows\ref\TrackerUi.dll
+E:\html\cSharp\form\tourement_tracker\TrackerUi\bin\Debug\net6.0-windows\Tourament_library.dll
+E:\html\cSharp\form\tourement_tracker\TrackerUi\bin\Debug\net6.0-windows\Tourament_library.pdb
+E:\html\cSharp\form\tourement_tracker\TrackerUi\obj\Debug\net6.0-windows\TrackerUi.csproj.CopyComplete

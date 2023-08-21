@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NYJ/RBj4og7bmtG1x5lN9nFh8FO+xHCJ3S6HltCCAhUKG5y7Cv7ALoXo6W+xcc72wO76/GIYiAl+fnjGrkP9Cw==",
+  "dgSpecHash": "ew2DcbKfQAbD+J1s+ygARIqDWHKza9xSaNEG9N3Hl5LKWMSUFfQOKsHLh6amS3Jf/WEARpuG8dIbZ01Z8FQ3UQ==",
   "success": true,
   "projectFilePath": "E:\\html\\cSharp\\form\\tourement_tracker\\TrackerUi\\TrackerUi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\toush\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512"
+  ],
   "logs": []
 }

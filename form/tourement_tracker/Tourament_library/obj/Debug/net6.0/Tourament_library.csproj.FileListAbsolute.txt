@@ -1,0 +1,12 @@
+E:\html\cSharp\form\tourement_tracker\Tourament_library\bin\Debug\net6.0\Tourament_library.deps.json
+E:\html\cSharp\form\tourement_tracker\Tourament_library\bin\Debug\net6.0\Tourament_library.dll
+E:\html\cSharp\form\tourement_tracker\Tourament_library\bin\Debug\net6.0\Tourament_library.pdb
+E:\html\cSharp\form\tourement_tracker\Tourament_library\obj\Debug\net6.0\Tourament_library.csproj.AssemblyReference.cache
+E:\html\cSharp\form\tourement_tracker\Tourament_library\obj\Debug\net6.0\Tourament_library.GeneratedMSBuildEditorConfig.editorconfig
+E:\html\cSharp\form\tourement_tracker\Tourament_library\obj\Debug\net6.0\Tourament_library.AssemblyInfoInputs.cache
+E:\html\cSharp\form\tourement_tracker\Tourament_library\obj\Debug\net6.0\Tourament_library.AssemblyInfo.cs
+E:\html\cSharp\form\tourement_tracker\Tourament_library\obj\Debug\net6.0\Tourament_library.csproj.CoreCompileInputs.cache
+E:\html\cSharp\form\tourement_tracker\Tourament_library\obj\Debug\net6.0\Tourament_library.dll
+E:\html\cSharp\form\tourement_tracker\Tourament_library\obj\Debug\net6.0\refint\Tourament_library.dll
+E:\html\cSharp\form\tourement_tracker\Tourament_library\obj\Debug\net6.0\Tourament_library.pdb
+E:\html\cSharp\form\tourement_tracker\Tourament_library\obj\Debug\net6.0\ref\Tourament_library.dll
