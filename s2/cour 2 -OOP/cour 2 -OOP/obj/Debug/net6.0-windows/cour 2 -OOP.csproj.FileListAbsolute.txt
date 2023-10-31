@@ -1,0 +1,16 @@
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\obj\Debug\net6.0-windows\cour_2__OOP.Form1.resources
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\obj\Debug\net6.0-windows\cour 2 -OOP.csproj.GenerateResource.cache
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\obj\Debug\net6.0-windows\cour 2 -OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\obj\Debug\net6.0-windows\cour 2 -OOP.AssemblyInfoInputs.cache
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\obj\Debug\net6.0-windows\cour 2 -OOP.AssemblyInfo.cs
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\obj\Debug\net6.0-windows\cour 2 -OOP.csproj.CoreCompileInputs.cache
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\bin\Debug\net6.0-windows\cour 2 -OOP.exe
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\bin\Debug\net6.0-windows\cour 2 -OOP.deps.json
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\bin\Debug\net6.0-windows\cour 2 -OOP.runtimeconfig.json
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\bin\Debug\net6.0-windows\cour 2 -OOP.dll
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\bin\Debug\net6.0-windows\cour 2 -OOP.pdb
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\obj\Debug\net6.0-windows\cour 2 -OOP.dll
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\obj\Debug\net6.0-windows\refint\cour 2 -OOP.dll
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\obj\Debug\net6.0-windows\cour 2 -OOP.pdb
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\obj\Debug\net6.0-windows\cour 2 -OOP.genruntimeconfig.cache
+C:\dev study\C# winForm\S2\cour 2 -OOP\cour 2 -OOP\obj\Debug\net6.0-windows\ref\cour 2 -OOP.dll
