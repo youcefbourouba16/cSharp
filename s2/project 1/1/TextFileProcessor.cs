@@ -14,13 +14,9 @@ namespace _1
         
         public static string getFullpath(this string fileName)
         {
-           
-            // path tae bin debugue win kyn file
-            // "C:\dev study\C# winForm\S2\project 1\1\bin\Debug"
-            string baseDirectory = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
 
-            // Combine the base directory, directoryName, and fileName
-            string fullPath = Path.Combine(baseDirectory, "User Folder", fileName);
+            string baseDirectory = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+            string fullPath = Path.Combine(baseDirectory,"User Folder", fileName);
 
             // Create the directory if it doesn't exist
             string directory = Path.GetDirectoryName(fullPath);
@@ -75,12 +71,11 @@ namespace _1
                 lines.Add($"{p.Id},{p.Username},{p.Password},{p.nom},{p.gender},{p.email}");
 
             }
-            ///Path.GetDirectoryName(Assembly.GetEntryAssembly().Location)==C:\dev study\C# winForm\S2\project 1\1\bin\Debug\textFile.txt
-            ////File.Create(fileName.getFullpath());         create file
-            ///File.Delete(fileName.getFullpath());          Delete file
-            File.WriteAllLines(@"C:\dev study\C# winForm\S2\project 1\1\bin\Debug\textFile", lines);   /// create file and write line than close the file
+            string path = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location)+ "\\User Folder\\textfile.txt";
+            
+            File.WriteAllLines(path, lines);   /// create file and write line than close the file
         }
-        public static int getLastId(List<string> lines)
+        public static int getLastId(this List<string> lines)
         {
             if (lines.Count==0)
             {

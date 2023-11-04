@@ -29,7 +29,13 @@ namespace _1
 
         private void main_Load(object sender, EventArgs e)
         {
-            lb_welcome.Text = "Welcome Mr :  " + LogedInUser.Username;
+            string gender;
+            if (LogedInUser.gender == 0)
+            {
+                gender = "M.";
+            }
+            else gender = "Mme";
+            lb_welcome.Text = "Welcome  "+gender+" :" + LogedInUser.Username;
             
         }
 

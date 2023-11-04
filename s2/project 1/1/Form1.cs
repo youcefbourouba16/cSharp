@@ -12,8 +12,8 @@ namespace _1
 {
     public partial class Login : Form
     {
-        
-        List<UserAndPassword> List= "UserAndPassword".getFullpath().loadFile().convertToUserClass();
+       
+        List<UserAndPassword> List= "textfile.txt".getFullpath().loadFile().convertToUserClass();
         /// <summary>
         /// Open login form///// name="a">User and Password get information
         /// ,  name="returnData">save data into List User and Password
@@ -26,7 +26,7 @@ namespace _1
             {
                 List.Add(a);
             }
-           
+            
             InitializeComponent();
         }
 
@@ -67,6 +67,11 @@ namespace _1
         }
         private void Connect_Click(object sender, EventArgs e)
         {
+            if (UserName.Text=="" && Password.Text=="")
+            {
+
+                MessageBox.Show("La zone de texte Utilisateur et mot de passe ne doit pas etre vide !");
+            }
             ConnectUser(List);
         }
 

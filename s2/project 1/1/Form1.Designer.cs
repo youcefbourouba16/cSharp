@@ -36,7 +36,6 @@
             this.NewUser = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.NewUser1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -118,9 +117,9 @@
             this.NewUser.Location = new System.Drawing.Point(363, 295);
             this.NewUser.Margin = new System.Windows.Forms.Padding(0);
             this.NewUser.Name = "NewUser";
-            this.NewUser.Size = new System.Drawing.Size(179, 48);
+            this.NewUser.Size = new System.Drawing.Size(232, 48);
             this.NewUser.TabIndex = 5;
-            this.NewUser.Text = "Fermer";
+            this.NewUser.Text = "nouveau compt";
             this.NewUser.UseVisualStyleBackColor = false;
             this.NewUser.Click += new System.EventHandler(this.closee_Click);
             // 
@@ -149,23 +148,12 @@
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // NewUser1
-            // 
-            this.NewUser1.Location = new System.Drawing.Point(594, 311);
-            this.NewUser1.Name = "NewUser1";
-            this.NewUser1.Size = new System.Drawing.Size(75, 23);
-            this.NewUser1.TabIndex = 9;
-            this.NewUser1.Text = "New User";
-            this.NewUser1.UseVisualStyleBackColor = true;
-            this.NewUser1.Click += new System.EventHandler(this.NewUser_Click);
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(710, 414);
-            this.Controls.Add(this.NewUser1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.NewUser);
@@ -193,7 +181,6 @@
         private System.Windows.Forms.Button NewUser;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button NewUser1;
     }
 }
 

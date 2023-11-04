@@ -13,7 +13,8 @@ namespace _1
 {
     public partial class ADDuser : Form
     {
-        List<UserAndPassword> List = "UserAndPassword".getFullpath().loadFile().convertToUserClass();
+        List<UserAndPassword> ListUserClass = "textfile.txt".getFullpath().loadFile().convertToUserClass();
+        List<string> ListUserString = "textfile.txt".getFullpath().loadFile();
         public ADDuser()
         {
             InitializeComponent();
@@ -42,18 +43,20 @@ namespace _1
             }
             else return 0;
         }
-        private void button1_Click_1(object sender, EventArgs e)
+        private void checkTbValue()
         {
-            int gender = getGender(cb_male);
-            List<string> line = 
-            UserAndPassword temp = new UserAndPassword(
-                tb_userName.Text, tb_password.Text,tb_nom.Text
-                ,tb_prenom.Text,tb_email.Text,gender
-                );
+            
+        }
+        private void saveFile_Click(object sender, EventArgs e)
+        { 
+           int gender = getGender(cb_male);
+            int id = ListUserString.getLastId()+1;
+           UserAndPassword temp = new UserAndPassword(id,tb_userName.Text, tb_password.Text, tb_nom.Text
+                , tb_prenom.Text, tb_email.Text, gender);
 
-            List.Add(temp);
-            List.saveUserToTextfile("UserAndPassword");
-            Login frm = new Login(temp,true);
+            ListUserClass.Add(temp);
+            ListUserClass.saveUserToTextfile("textfile.txt");
+            Login frm = new Login(temp, true);
             this.Hide();
             frm.ShowDialog();
         }

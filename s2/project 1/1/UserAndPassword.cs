@@ -18,8 +18,9 @@ namespace _1
 
         
 
-        public UserAndPassword(string username, string password, string nom, string prenom, string email, bool gender)
+        public UserAndPassword(int id,string username, string password, string nom, string prenom, string email, int gender)
         {
+            Id = id;
             Password = password;
             Username = username;
             this.nom = nom;

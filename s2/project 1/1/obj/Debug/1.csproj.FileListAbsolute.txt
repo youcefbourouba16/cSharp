@@ -20,3 +20,15 @@ C:\dev study\C# winForm\S2\project 1\1\obj\Debug\1.exe
 C:\dev study\C# winForm\S2\project 1\1\obj\Debug\1.pdb
 C:\dev study\C# winForm\S2\project 1\1\obj\Debug\_1.ADDuser.resources
 C:\dev study\C# winForm\S2\project 1\1\obj\Debug\_1.main.resources
+C:\dev study\cSharp\s2\project 1\1\bin\Debug\1.exe.config
+C:\dev study\cSharp\s2\project 1\1\bin\Debug\1.exe
+C:\dev study\cSharp\s2\project 1\1\bin\Debug\1.pdb
+C:\dev study\cSharp\s2\project 1\1\obj\Debug\1.csproj.AssemblyReference.cache
+C:\dev study\cSharp\s2\project 1\1\obj\Debug\_1.Login.resources
+C:\dev study\cSharp\s2\project 1\1\obj\Debug\_1.main.resources
+C:\dev study\cSharp\s2\project 1\1\obj\Debug\_1.ADDuser.resources
+C:\dev study\cSharp\s2\project 1\1\obj\Debug\_1.Properties.Resources.resources
+C:\dev study\cSharp\s2\project 1\1\obj\Debug\1.csproj.GenerateResource.cache
+C:\dev study\cSharp\s2\project 1\1\obj\Debug\1.csproj.CoreCompileInputs.cache
+C:\dev study\cSharp\s2\project 1\1\obj\Debug\1.exe
+C:\dev study\cSharp\s2\project 1\1\obj\Debug\1.pdb
