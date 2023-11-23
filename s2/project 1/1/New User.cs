@@ -48,7 +48,8 @@ namespace _1
             
         }
         private void saveFile_Click(object sender, EventArgs e)
-        { 
+        {
+            
            int gender = getGender(cb_male);
             int id = ListUserString.getLastId()+1;
            UserAndPassword temp = new UserAndPassword(id,tb_userName.Text, tb_password.Text, tb_nom.Text
@@ -59,6 +60,14 @@ namespace _1
             Login frm = new Login(temp, true);
             this.Hide();
             frm.ShowDialog();
+        }
+
+        private void tb_nom_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

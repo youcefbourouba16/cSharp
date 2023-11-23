@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\html\\cSharp\\form\\examen\\form1\\form1\\form1.csproj": {}
+    "C:\\dev study\\cSharp\\s1\\form\\examen\\form1\\form1\\form1.csproj": {}
   },
   "projects": {
-    "E:\\html\\cSharp\\form\\examen\\form1\\form1\\form1.csproj": {
+    "C:\\dev study\\cSharp\\s1\\form\\examen\\form1\\form1\\form1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\html\\cSharp\\form\\examen\\form1\\form1\\form1.csproj",
+        "projectUniqueName": "C:\\dev study\\cSharp\\s1\\form\\examen\\form1\\form1\\form1.csproj",
         "projectName": "form1",
-        "projectPath": "E:\\html\\cSharp\\form\\examen\\form1\\form1\\form1.csproj",
-        "packagesPath": "C:\\Users\\toush\\.nuget\\packages\\",
-        "outputPath": "E:\\html\\cSharp\\form\\examen\\form1\\form1\\obj\\",
+        "projectPath": "C:\\dev study\\cSharp\\s1\\form\\examen\\form1\\form1\\form1.csproj",
+        "packagesPath": "C:\\Users\\bouro\\.nuget\\packages\\",
+        "outputPath": "C:\\dev study\\cSharp\\s1\\form\\examen\\form1\\form1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\toush\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bouro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

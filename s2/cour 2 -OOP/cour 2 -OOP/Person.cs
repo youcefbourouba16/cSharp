@@ -8,11 +8,7 @@ namespace cour_2__OOP
 {
     internal class Person
     {
-        /// <summary>
-        ///  private read write only in this class
-        ///  public in all classes of the project
-        ///  protectd 
-        /// </summary>
+        
         private int id;
         private string name;
         private string prenom;
@@ -40,21 +36,13 @@ namespace cour_2__OOP
                 else MessageBox.Show("L'age doit etre >= 18");
              } 
         }
-        /// <summary>
-        /// /sans aragument
-        /// </summary>
+
         public Person()
         {
             nbrPerson += 1;
             MessageBox.Show("person numero" + nbrPerson);
         }
-        /// <summary>
-        /// with argements
-        /// </summary>
-        /// <param name="id"></param>
-        /// <param name="name"></param>
-        /// <param name="prenom"></param>
-        /// <param name="dN"></param>
+        
         public Person(int id, string name, string prenom, DateTime dN)
         {
             Id = id;
@@ -63,7 +51,24 @@ namespace cour_2__OOP
             DN = dN;
             new Person();
         }
-
+        ///// Methods
+        ///
+        public int nbrabs(int mat)
+        {
+            return mat++;
+        }
+        public void afficher()
+        {
+            MessageBox.Show("id est :" + this.Id);
+        }
+        /// <summary>
+        /// how to call static method from other class 
+        /// </summary>
+        /// <param name="a"></param>
+        public static void afficheNomPrenom(int a)
+        {
+            MessageBox.Show("static =" + a);
+        }
         
     }
 }

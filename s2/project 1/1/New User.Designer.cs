@@ -108,6 +108,7 @@
             this.tb_prenom.Name = "tb_prenom";
             this.tb_prenom.Size = new System.Drawing.Size(138, 20);
             this.tb_prenom.TabIndex = 6;
+            this.tb_prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_nom_KeyPress);
             // 
             // tb_nom
             // 
@@ -115,6 +116,7 @@
             this.tb_nom.Name = "tb_nom";
             this.tb_nom.Size = new System.Drawing.Size(138, 20);
             this.tb_nom.TabIndex = 5;
+            this.tb_nom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_nom_KeyPress);
             // 
             // label5
             // 

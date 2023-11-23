@@ -41,26 +41,14 @@ namespace _1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //// TRY Catch method
-            int x = 9, y = 0;
-            try
-            {
-                //ida makanch kyn bugg ydir hadi
-                MessageBox.Show((x / y).ToString());
-            }
-            catch (Exception ex)
-            {
-                // ida kan bug ydir hadi yred message error
-                MessageBox.Show(ex.Message);
+            
+            
+            
+        }
 
-            } 
-            finally
-            {
-                int z = x + y;
-                MessageBox.Show("Done finally");
-            }
-            
-            
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

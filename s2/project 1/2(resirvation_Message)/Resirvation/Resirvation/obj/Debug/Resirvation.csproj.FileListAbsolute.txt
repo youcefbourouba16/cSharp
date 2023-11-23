@@ -1,0 +1,10 @@
+C:\dev study\cSharp\s2\project 1\2\Resirvation\Resirvation\bin\Debug\Resirvation.exe.config
+C:\dev study\cSharp\s2\project 1\2\Resirvation\Resirvation\bin\Debug\Resirvation.exe
+C:\dev study\cSharp\s2\project 1\2\Resirvation\Resirvation\bin\Debug\Resirvation.pdb
+C:\dev study\cSharp\s2\project 1\2\Resirvation\Resirvation\obj\Debug\Resirvation.csproj.AssemblyReference.cache
+C:\dev study\cSharp\s2\project 1\2\Resirvation\Resirvation\obj\Debug\Resirvation.Form1.resources
+C:\dev study\cSharp\s2\project 1\2\Resirvation\Resirvation\obj\Debug\Resirvation.Properties.Resources.resources
+C:\dev study\cSharp\s2\project 1\2\Resirvation\Resirvation\obj\Debug\Resirvation.csproj.GenerateResource.cache
+C:\dev study\cSharp\s2\project 1\2\Resirvation\Resirvation\obj\Debug\Resirvation.csproj.CoreCompileInputs.cache
+C:\dev study\cSharp\s2\project 1\2\Resirvation\Resirvation\obj\Debug\Resirvation.exe
+C:\dev study\cSharp\s2\project 1\2\Resirvation\Resirvation\obj\Debug\Resirvation.pdb

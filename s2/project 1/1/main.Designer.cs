@@ -63,13 +63,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(578, 187);
+            this.button1.Location = new System.Drawing.Point(27, 149);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 40);
+            this.button1.Size = new System.Drawing.Size(185, 34);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Try Catch Div 9/0";
+            this.button1.Text = "Edit Password ?";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // main
             // 
