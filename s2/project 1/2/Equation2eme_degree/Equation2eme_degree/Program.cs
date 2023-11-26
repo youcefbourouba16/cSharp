@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _1
+namespace Equation2eme_degree
 {
     internal static class Program
     {
@@ -16,8 +16,7 @@ namespace _1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            UserAndPassword e= new UserAndPassword();
-            Application.Run(new Login(e, false));
+            Application.Run(new Form1());
         }
     }
 }

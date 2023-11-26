@@ -373,6 +373,7 @@
             this.btn_reserve.TabIndex = 22;
             this.btn_reserve.Text = "reserve (No paiment requered)";
             this.btn_reserve.UseVisualStyleBackColor = false;
+            this.btn_reserve.Click += new System.EventHandler(this.btn_reserve_Click);
             // 
             // Form1
             // 

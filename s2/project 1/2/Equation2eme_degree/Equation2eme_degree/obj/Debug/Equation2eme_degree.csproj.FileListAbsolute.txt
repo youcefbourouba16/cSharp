@@ -1,0 +1,10 @@
+C:\dev study\cSharp\s2\project 1\2\Equation2eme_degree\Equation2eme_degree\bin\Debug\Equation2eme_degree.exe.config
+C:\dev study\cSharp\s2\project 1\2\Equation2eme_degree\Equation2eme_degree\bin\Debug\Equation2eme_degree.exe
+C:\dev study\cSharp\s2\project 1\2\Equation2eme_degree\Equation2eme_degree\bin\Debug\Equation2eme_degree.pdb
+C:\dev study\cSharp\s2\project 1\2\Equation2eme_degree\Equation2eme_degree\obj\Debug\Equation2eme_degree.csproj.AssemblyReference.cache
+C:\dev study\cSharp\s2\project 1\2\Equation2eme_degree\Equation2eme_degree\obj\Debug\Equation2eme_degree.Form1.resources
+C:\dev study\cSharp\s2\project 1\2\Equation2eme_degree\Equation2eme_degree\obj\Debug\Equation2eme_degree.Properties.Resources.resources
+C:\dev study\cSharp\s2\project 1\2\Equation2eme_degree\Equation2eme_degree\obj\Debug\Equation2eme_degree.csproj.GenerateResource.cache
+C:\dev study\cSharp\s2\project 1\2\Equation2eme_degree\Equation2eme_degree\obj\Debug\Equation2eme_degree.csproj.CoreCompileInputs.cache
+C:\dev study\cSharp\s2\project 1\2\Equation2eme_degree\Equation2eme_degree\obj\Debug\Equation2eme_degree.exe
+C:\dev study\cSharp\s2\project 1\2\Equation2eme_degree\Equation2eme_degree\obj\Debug\Equation2eme_degree.pdb
