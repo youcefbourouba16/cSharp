@@ -36,12 +36,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rb_ci = new System.Windows.Forms.RadioButton();
+            this.rb_pass = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.rb_buis = new System.Windows.Forms.RadioButton();
+            this.rb_eco = new System.Windows.Forms.RadioButton();
+            this.tb_num = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -53,8 +53,8 @@
             this.cb_depart = new System.Windows.Forms.ComboBox();
             this.cb_Ariver = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.rb_aller_retour = new System.Windows.Forms.RadioButton();
+            this.rb_aller_simple = new System.Windows.Forms.RadioButton();
             this.btn_reserve = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -139,8 +139,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.LightGray;
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.rb_ci);
+            this.groupBox1.Controls.Add(this.rb_pass);
             this.groupBox1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.DimGray;
             this.groupBox1.Location = new System.Drawing.Point(42, 230);
@@ -150,35 +150,37 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Document de voyage :";
             // 
-            // radioButton2
+            // rb_ci
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.ForeColor = System.Drawing.Color.Black;
-            this.radioButton2.Location = new System.Drawing.Point(147, 19);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(45, 23);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "CI";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rb_ci.AutoSize = true;
+            this.rb_ci.ForeColor = System.Drawing.Color.Black;
+            this.rb_ci.Location = new System.Drawing.Point(147, 19);
+            this.rb_ci.Name = "rb_ci";
+            this.rb_ci.Size = new System.Drawing.Size(45, 23);
+            this.rb_ci.TabIndex = 1;
+            this.rb_ci.TabStop = true;
+            this.rb_ci.Text = "CI";
+            this.rb_ci.UseVisualStyleBackColor = true;
+            this.rb_ci.CheckedChanged += new System.EventHandler(this.rb_ci_CheckedChanged);
             // 
-            // radioButton1
+            // rb_pass
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.ForeColor = System.Drawing.Color.Black;
-            this.radioButton1.Location = new System.Drawing.Point(6, 19);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(99, 23);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Passport";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rb_pass.AutoSize = true;
+            this.rb_pass.ForeColor = System.Drawing.Color.Black;
+            this.rb_pass.Location = new System.Drawing.Point(6, 19);
+            this.rb_pass.Name = "rb_pass";
+            this.rb_pass.Size = new System.Drawing.Size(99, 23);
+            this.rb_pass.TabIndex = 0;
+            this.rb_pass.TabStop = true;
+            this.rb_pass.Text = "Passport";
+            this.rb_pass.UseVisualStyleBackColor = true;
+            this.rb_pass.CheckedChanged += new System.EventHandler(this.rb_pass_CheckedChanged);
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.LightGray;
-            this.groupBox2.Controls.Add(this.radioButton3);
-            this.groupBox2.Controls.Add(this.radioButton4);
+            this.groupBox2.Controls.Add(this.rb_buis);
+            this.groupBox2.Controls.Add(this.rb_eco);
             this.groupBox2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.DimGray;
             this.groupBox2.Location = new System.Drawing.Point(12, 62);
@@ -188,40 +190,40 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Classe :";
             // 
-            // radioButton3
+            // rb_buis
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.ForeColor = System.Drawing.Color.Black;
-            this.radioButton3.Location = new System.Drawing.Point(147, 19);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(108, 23);
-            this.radioButton3.TabIndex = 1;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Business.";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rb_buis.AutoSize = true;
+            this.rb_buis.ForeColor = System.Drawing.Color.Black;
+            this.rb_buis.Location = new System.Drawing.Point(147, 19);
+            this.rb_buis.Name = "rb_buis";
+            this.rb_buis.Size = new System.Drawing.Size(108, 23);
+            this.rb_buis.TabIndex = 1;
+            this.rb_buis.TabStop = true;
+            this.rb_buis.Text = "Business.";
+            this.rb_buis.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rb_eco
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.ForeColor = System.Drawing.Color.Black;
-            this.radioButton4.Location = new System.Drawing.Point(6, 19);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(126, 23);
-            this.radioButton4.TabIndex = 0;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Economique.";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rb_eco.AutoSize = true;
+            this.rb_eco.ForeColor = System.Drawing.Color.Black;
+            this.rb_eco.Location = new System.Drawing.Point(6, 19);
+            this.rb_eco.Name = "rb_eco";
+            this.rb_eco.Size = new System.Drawing.Size(126, 23);
+            this.rb_eco.TabIndex = 0;
+            this.rb_eco.TabStop = true;
+            this.rb_eco.Text = "Economique.";
+            this.rb_eco.UseVisualStyleBackColor = true;
             // 
-            // textBox5
+            // tb_num
             // 
-            this.textBox5.BackColor = System.Drawing.Color.White;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(428, 248);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(323, 26);
-            this.textBox5.TabIndex = 12;
+            this.tb_num.BackColor = System.Drawing.Color.White;
+            this.tb_num.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tb_num.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tb_num.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_num.Location = new System.Drawing.Point(428, 248);
+            this.tb_num.Name = "tb_num";
+            this.tb_num.Size = new System.Drawing.Size(323, 26);
+            this.tb_num.TabIndex = 12;
             // 
             // label5
             // 
@@ -251,6 +253,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(189, 20);
             this.dateTimePicker1.TabIndex = 14;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // dateTimePicker2
             // 
@@ -321,8 +324,8 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.LightGray;
-            this.groupBox3.Controls.Add(this.radioButton5);
-            this.groupBox3.Controls.Add(this.radioButton6);
+            this.groupBox3.Controls.Add(this.rb_aller_retour);
+            this.groupBox3.Controls.Add(this.rb_aller_simple);
             this.groupBox3.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.DimGray;
             this.groupBox3.Location = new System.Drawing.Point(281, 62);
@@ -332,29 +335,29 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "A/R";
             // 
-            // radioButton5
+            // rb_aller_retour
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.ForeColor = System.Drawing.Color.Black;
-            this.radioButton5.Location = new System.Drawing.Point(147, 19);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(144, 23);
-            this.radioButton5.TabIndex = 1;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Aller retour.";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rb_aller_retour.AutoSize = true;
+            this.rb_aller_retour.ForeColor = System.Drawing.Color.Black;
+            this.rb_aller_retour.Location = new System.Drawing.Point(147, 19);
+            this.rb_aller_retour.Name = "rb_aller_retour";
+            this.rb_aller_retour.Size = new System.Drawing.Size(144, 23);
+            this.rb_aller_retour.TabIndex = 1;
+            this.rb_aller_retour.TabStop = true;
+            this.rb_aller_retour.Text = "Aller retour.";
+            this.rb_aller_retour.UseVisualStyleBackColor = true;
             // 
-            // radioButton6
+            // rb_aller_simple
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.ForeColor = System.Drawing.Color.Black;
-            this.radioButton6.Location = new System.Drawing.Point(6, 19);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(144, 23);
-            this.radioButton6.TabIndex = 0;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Aller simple.";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.rb_aller_simple.AutoSize = true;
+            this.rb_aller_simple.ForeColor = System.Drawing.Color.Black;
+            this.rb_aller_simple.Location = new System.Drawing.Point(6, 19);
+            this.rb_aller_simple.Name = "rb_aller_simple";
+            this.rb_aller_simple.Size = new System.Drawing.Size(144, 23);
+            this.rb_aller_simple.TabIndex = 0;
+            this.rb_aller_simple.TabStop = true;
+            this.rb_aller_simple.Text = "Aller simple.";
+            this.rb_aller_simple.UseVisualStyleBackColor = true;
             // 
             // btn_reserve
             // 
@@ -392,7 +395,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.tb_num);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -429,12 +432,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rb_ci;
+        private System.Windows.Forms.RadioButton rb_pass;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.RadioButton rb_buis;
+        private System.Windows.Forms.RadioButton rb_eco;
+        private System.Windows.Forms.TextBox tb_num;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
@@ -446,8 +449,8 @@
         private System.Windows.Forms.ComboBox cb_depart;
         private System.Windows.Forms.ComboBox cb_Ariver;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton rb_aller_retour;
+        private System.Windows.Forms.RadioButton rb_aller_simple;
         private System.Windows.Forms.Button btn_reserve;
     }
 }

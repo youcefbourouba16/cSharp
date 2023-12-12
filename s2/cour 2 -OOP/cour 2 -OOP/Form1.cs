@@ -15,7 +15,7 @@ namespace cour_2__OOP
             Person p3 = new Person(1003, "hmm", "bankai", DateTime.Today);
             p3.afficher();
             ///calll method from other class
-            Person.afficheNomPrenom
+            Person.afficheNomPrenom(4);
 
         }
     }

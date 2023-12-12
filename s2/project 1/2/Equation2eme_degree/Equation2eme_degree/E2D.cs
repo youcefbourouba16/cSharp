@@ -17,17 +17,18 @@ namespace Equation2eme_degree
         public E2D()
         {
         }
-        public E2D(double b,double c)
+        public E2D(double e,double c)
         {
             try
             {
-                double solutin = -c / b;
+                double solutin = -c / e;
                 MessageBox.Show("solution is :" + solutin);
+                this.b = e;
             }
-            catch (Exception e)
+            catch (Exception k)
             {
 
-                MessageBox.Show(e.Message,"ERROR",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                MessageBox.Show(k.Message,"ERROR",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
                 
             

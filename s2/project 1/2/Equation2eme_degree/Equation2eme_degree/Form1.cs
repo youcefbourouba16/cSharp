@@ -29,6 +29,8 @@ namespace Equation2eme_degree
                 {
 
                     E2D bn = new E2D(b, c);
+                    E2D kenza = new E2D(1, 2);
+                    MessageBox.Show("fsdkf");
                 }
                 else
                 {
