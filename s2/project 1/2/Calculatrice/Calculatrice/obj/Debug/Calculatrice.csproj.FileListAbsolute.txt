@@ -1,0 +1,10 @@
+C:\dev study\cSharp\s2\project 1\2\Calculatrice\Calculatrice\bin\Debug\Calculatrice.exe.config
+C:\dev study\cSharp\s2\project 1\2\Calculatrice\Calculatrice\bin\Debug\Calculatrice.exe
+C:\dev study\cSharp\s2\project 1\2\Calculatrice\Calculatrice\bin\Debug\Calculatrice.pdb
+C:\dev study\cSharp\s2\project 1\2\Calculatrice\Calculatrice\obj\Debug\Calculatrice.csproj.AssemblyReference.cache
+C:\dev study\cSharp\s2\project 1\2\Calculatrice\Calculatrice\obj\Debug\Calculatrice.Form1.resources
+C:\dev study\cSharp\s2\project 1\2\Calculatrice\Calculatrice\obj\Debug\Calculatrice.Properties.Resources.resources
+C:\dev study\cSharp\s2\project 1\2\Calculatrice\Calculatrice\obj\Debug\Calculatrice.csproj.GenerateResource.cache
+C:\dev study\cSharp\s2\project 1\2\Calculatrice\Calculatrice\obj\Debug\Calculatrice.csproj.CoreCompileInputs.cache
+C:\dev study\cSharp\s2\project 1\2\Calculatrice\Calculatrice\obj\Debug\Calculatrice.exe
+C:\dev study\cSharp\s2\project 1\2\Calculatrice\Calculatrice\obj\Debug\Calculatrice.pdb

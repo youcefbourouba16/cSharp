@@ -1,0 +1,11 @@
+C:\dev study\cSharp\s2\project 1\2\lina\lina\bin\Debug\lina.exe.config
+C:\dev study\cSharp\s2\project 1\2\lina\lina\bin\Debug\lina.exe
+C:\dev study\cSharp\s2\project 1\2\lina\lina\bin\Debug\lina.pdb
+C:\dev study\cSharp\s2\project 1\2\lina\lina\obj\Debug\lina.csproj.AssemblyReference.cache
+C:\dev study\cSharp\s2\project 1\2\lina\lina\obj\Debug\lina.Form1.resources
+C:\dev study\cSharp\s2\project 1\2\lina\lina\obj\Debug\lina.Properties.Resources.resources
+C:\dev study\cSharp\s2\project 1\2\lina\lina\obj\Debug\lina.csproj.GenerateResource.cache
+C:\dev study\cSharp\s2\project 1\2\lina\lina\obj\Debug\lina.csproj.CoreCompileInputs.cache
+C:\dev study\cSharp\s2\project 1\2\lina\lina\obj\Debug\lina.exe
+C:\dev study\cSharp\s2\project 1\2\lina\lina\obj\Debug\lina.pdb
+C:\dev study\cSharp\s2\project 1\2\lina\lina\obj\Debug\lina.bank_system.resources

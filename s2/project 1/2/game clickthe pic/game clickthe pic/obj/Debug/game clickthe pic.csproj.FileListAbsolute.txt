@@ -1,0 +1,10 @@
+C:\dev study\cSharp\s2\project 1\2\game clickthe pic\game clickthe pic\bin\Debug\game clickthe pic.exe.config
+C:\dev study\cSharp\s2\project 1\2\game clickthe pic\game clickthe pic\bin\Debug\game clickthe pic.exe
+C:\dev study\cSharp\s2\project 1\2\game clickthe pic\game clickthe pic\bin\Debug\game clickthe pic.pdb
+C:\dev study\cSharp\s2\project 1\2\game clickthe pic\game clickthe pic\obj\Debug\game clickthe pic.csproj.AssemblyReference.cache
+C:\dev study\cSharp\s2\project 1\2\game clickthe pic\game clickthe pic\obj\Debug\game_clickthe_pic.Form1.resources
+C:\dev study\cSharp\s2\project 1\2\game clickthe pic\game clickthe pic\obj\Debug\game_clickthe_pic.Properties.Resources.resources
+C:\dev study\cSharp\s2\project 1\2\game clickthe pic\game clickthe pic\obj\Debug\game clickthe pic.csproj.GenerateResource.cache
+C:\dev study\cSharp\s2\project 1\2\game clickthe pic\game clickthe pic\obj\Debug\game clickthe pic.csproj.CoreCompileInputs.cache
+C:\dev study\cSharp\s2\project 1\2\game clickthe pic\game clickthe pic\obj\Debug\game clickthe pic.exe
+C:\dev study\cSharp\s2\project 1\2\game clickthe pic\game clickthe pic\obj\Debug\game clickthe pic.pdb

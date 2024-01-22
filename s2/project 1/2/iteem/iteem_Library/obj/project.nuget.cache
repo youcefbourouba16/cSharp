@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "v8dbGtFKxigcHsiHzplnqKs+EaJ6FgebxIRM0smgd+pqF15lUoCalaF0vGA2MQDjjgN/a36ol45XeAApgeZ7EQ==",
+  "success": true,
+  "projectFilePath": "C:\\dev study\\cSharp\\s2\\project 1\\2\\iteem\\iteem_Library\\iteem_Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bouro\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}

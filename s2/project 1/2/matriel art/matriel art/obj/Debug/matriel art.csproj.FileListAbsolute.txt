@@ -1,0 +1,12 @@
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\bin\Debug\matriel art.exe.config
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\bin\Debug\matriel art.exe
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\bin\Debug\matriel art.pdb
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\bin\Debug\MaterialSkin.dll
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\obj\Debug\matriel art.csproj.AssemblyReference.cache
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\obj\Debug\matriel_art.Form1.resources
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\obj\Debug\matriel_art.Properties.Resources.resources
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\obj\Debug\matriel art.csproj.GenerateResource.cache
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\obj\Debug\matriel art.csproj.CoreCompileInputs.cache
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\obj\Debug\matriel art.csproj.CopyComplete
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\obj\Debug\matriel art.exe
+C:\dev study\cSharp\s2\project 1\2\matriel art\matriel art\obj\Debug\matriel art.pdb

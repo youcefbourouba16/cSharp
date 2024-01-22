@@ -1,0 +1,14 @@
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\bin\Debug\exam_s2Csharp.exe.config
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\bin\Debug\exam_s2Csharp.exe
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\bin\Debug\exam_s2Csharp.pdb
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\bin\Debug\MaterialSkin.dll
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\obj\Debug\exam_s2Csharp.csproj.AssemblyReference.cache
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\obj\Debug\exam_s2Csharp.Properties.Resources.resources
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\obj\Debug\exam_s2Csharp.csproj.GenerateResource.cache
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\obj\Debug\exam_s2Csharp.csproj.CoreCompileInputs.cache
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\obj\Debug\exam_s2Csharp.csproj.CopyComplete
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\obj\Debug\exam_s2Csharp.exe
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\obj\Debug\exam_s2Csharp.pdb
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\obj\Debug\exam_s2Csharp.frm_login.resources
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\obj\Debug\exam_s2Csharp.logup.resources
+C:\dev study\cSharp\s2\project 1\2\exam_s2Csharp\exam_s2Csharp\obj\Debug\exam_s2Csharp.account.resources

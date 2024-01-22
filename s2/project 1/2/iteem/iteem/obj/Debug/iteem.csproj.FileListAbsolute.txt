@@ -1,0 +1,10 @@
+C:\dev study\cSharp\s2\project 1\2\iteem\iteem\bin\Debug\iteem.exe.config
+C:\dev study\cSharp\s2\project 1\2\iteem\iteem\bin\Debug\iteem.exe
+C:\dev study\cSharp\s2\project 1\2\iteem\iteem\bin\Debug\iteem.pdb
+C:\dev study\cSharp\s2\project 1\2\iteem\iteem\obj\Debug\iteem.csproj.AssemblyReference.cache
+C:\dev study\cSharp\s2\project 1\2\iteem\iteem\obj\Debug\iteem.Form1.resources
+C:\dev study\cSharp\s2\project 1\2\iteem\iteem\obj\Debug\iteem.Properties.Resources.resources
+C:\dev study\cSharp\s2\project 1\2\iteem\iteem\obj\Debug\iteem.csproj.GenerateResource.cache
+C:\dev study\cSharp\s2\project 1\2\iteem\iteem\obj\Debug\iteem.csproj.CoreCompileInputs.cache
+C:\dev study\cSharp\s2\project 1\2\iteem\iteem\obj\Debug\iteem.exe
+C:\dev study\cSharp\s2\project 1\2\iteem\iteem\obj\Debug\iteem.pdb
